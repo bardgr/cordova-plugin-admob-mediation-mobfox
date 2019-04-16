@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
-<plugin id="cordova-plugin-admob-mediation-mobfox" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+<plugin id="cordova-plugin-admob-mediation-mobfox" version="0.0.2" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
     <name>cordova-plugin-admob-mediation-mobfox</name>
 	
 	<dependency id="cordova-plugin-admob-free" />
-	
+	<framework src="build.gradle" custom="true" type="gradleReference"/>
 	
 	<platform name="android">
 		<config-file parent="/*" target="AndroidManifest.xml">
