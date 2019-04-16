@@ -5,7 +5,7 @@
 	<dependency id="cordova-plugin-admob-free" />
 	<dependency id="Volley" />
 	<dependency id="Moat" />
-	<dependency id="Danikula" />
+	<dependency id="AndroidVideoCache" />
 	
 	<platform name="android">
 		<config-file parent="/*" target="AndroidManifest.xml">
