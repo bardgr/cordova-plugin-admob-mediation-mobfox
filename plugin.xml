@@ -3,6 +3,9 @@
     <name>cordova-plugin-admob-mediation-mobfox</name>
 	
 	<dependency id="cordova-plugin-admob-free" />
+	<dependency id="Volley" />
+	<dependency id="Moat" />
+	<dependency id="Danikula" />
 	
 	<platform name="android">
 		<config-file parent="/*" target="AndroidManifest.xml">
