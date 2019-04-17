@@ -1,8 +1,4 @@
 
-android {
-    useLibrary 'org.apache.http.legacy'
-}
-
 repositories {
     jcenter()
     google()
